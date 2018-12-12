@@ -1,0 +1,20 @@
+.button {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font-family: $font__family--main;
+  font-weight: 700;
+
+  &--primary {
+    background-color: $color--secondary-accent;
+    font-size: $font__size--subheading;
+    color: #fff;
+  }
+
+  &--light {
+    border: 1px solid $color--neutral-light;
+    font-size: $font__size--subheading;
+    color: $color--neutral-light;
+  }
+}

@@ -1,0 +1,13 @@
+.headline {
+  font-family: $font__family--accent;
+  font-size: $font__size--heading;
+  color: $color--dark-text;
+  margin-bottom: 30px;
+
+  &--small {
+    font-family: $font__family--main;
+    font-size: $font__size--subheading;
+    color: $color--text;
+    margin-bottom: 20px;
+  }
+}

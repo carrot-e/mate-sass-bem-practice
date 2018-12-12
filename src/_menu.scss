@@ -1,0 +1,23 @@
+.menu {
+  &__items {
+    display: flex;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__item {
+    padding: 0 20px;
+    font-family: $font__family--main;
+    font-size: $font--size--navigation;
+    text-transform: uppercase;
+
+    &--active .menu__link {
+      color: $color--primary-accent;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color--text;
+  }
+}
